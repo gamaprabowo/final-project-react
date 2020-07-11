@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron-apple-bg {
+  height: 400px;
+  background-image: url(../Image/bg-1.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.jumbotron-lenovo-bg {
+  height: 400px;
+  background-image: url(../Image/lenovo-bg.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.jumbotron-asus-bg {
+  height: 400px;
+  background-image: url(../Image/asus-bg.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.home-header-bg {
+  height: 600px;
+  background-image: url(../Image/home-header-bg.jpg);
+  background-size: cover;
+  color: black;
+}
+
+.img-produk {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 150px;
+}
+
+.img-produk-lenovo {
+  width: 400px;
+  height: 300px;
+  margin-bottom: 150px;
+}
+
+.img-produk-apple {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 150px;
+}
+
+.footercomp {
+  width: 100%;
+  height: 70px;
+  margin: 0;
+  background-color: #292b2c;
+  position: relative;
+  bottom: 0;
+}
+.footercomp p {
+  text-align: center;
+  color: white;
+  padding-top: 25px;
+}
+
+.box-stock {
+  width: 300px;
+  display: inline-block;
+  height: auto;
+  border: 2px solid silver;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  margin-right: 50px;
+  transition: ease 0.5s;
+}
+
+.box-stock:hover {
+  box-shadow: 3px 3px 20px grey;
+}
+
+.box-stock img {
+  width: 200px;
+  height: 150px;
+}
+
+.btn-click {
+  transition: ease-out 0.7s;
+  border-radius: 5px;
+  border: 2px solid black;
+  width: 100px;
+  padding: 10px;
+}
+
+.btn-click:hover {
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+}
